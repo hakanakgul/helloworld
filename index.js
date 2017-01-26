@@ -33,6 +33,9 @@ app.get('/fblogo', function(req, res) {
 app.get('/instalogo', function(req, res) {
     res.sendFile(__dirname + '/Content/InstagramLogo.png');
 });
+app.get('/twlogo', function(req, res) {
+    res.sendFile(__dirname + '/Content/TwitterLogo.png');
+});
 
 
 

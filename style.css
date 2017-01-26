@@ -90,6 +90,13 @@ ul.topnav li a.topnav-instalogo {
     background-size: cover;
 }
 
+ul.topnav li a.topnav-twlogo {
+    width: 60px;
+    height: 65px;
+    background-image: url(twlogo);
+    background-size: cover;
+}
+
 ul.topnav div.socialdiv {
     display: flex;
     flex: 1 1 0;
