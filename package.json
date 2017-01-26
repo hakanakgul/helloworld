@@ -1,0 +1,21 @@
+{
+  "name": "hakanakgul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "flexiblegs-less": "^5.5.3",
+    "flexiblegs-sass": "^5.5.3",
+    "flexiblegs-scss": "^5.5.3",
+    "flexiblegs-stylus": "^5.5.3",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

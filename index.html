@@ -1,0 +1,100 @@
+<!--https://www.youtube.com/watch?v=wU9owx8gBsI-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hakan Akgül</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+        var socket = io();
+    </script>
+
+
+    <ul class="topnav">
+        <div class="logodiv">
+            <li class="logo">
+                <a class="topnav-logo" href="#home"></a>
+            </li>
+        </div>
+        <div class="socialdiv">
+            <li class="right">
+                <a class="topnav-fblogo" href="#fb"></a>
+            </li>
+            <li class="right">
+                <a class="topnav-ytlogo" href="#yt"></a>
+            </li>
+            <li class="right">
+                <a class="topnav-instalogo" href="#about"></a>
+            </li>
+        </div>
+
+
+
+    </ul>
+    <script>
+        $(document).ready(function() {
+
+            $('.topnav').ready(function() {
+                $('.topnav').css({
+                    'height': '88px',
+                    'width': '100%',
+                });
+                $('.back').css({
+                    'margin-top': '103px',
+                });
+            });
+
+            $('.topnav').click(function() {
+                $('.topnav').css({
+                    'height': '185px',
+                    'width': '100%',
+                });
+                $('.back').css({
+                    'margin-top': '200px',
+                });
+            });
+
+            $('.topnav').hover(function() {
+                $('.topnav').css({
+                    'height': '88px',
+                    'width': '100%'
+                });
+                $('.back').css({
+                    'margin-top': '103px',
+                });
+            });
+        });
+    </script>
+
+    <div class="back">
+
+        <h1>Fixed Top Navigation Bar</h1>
+        <h2>Scroll this page to see the effect</h2>
+        <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

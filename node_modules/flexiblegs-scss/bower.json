@@ -1,0 +1,23 @@
+{
+  "name": "flexiblegs-scss",
+  "version": "5.5.3",
+  "homepage": "http://flexible.gs",
+  "description": "Flexible Grid System Scss",
+  "keywords": [
+    "css",
+    "sass",
+    "scss",
+    "grid",
+    "responsive",
+    "framework",
+    "flexible",
+    "flexbox",
+    "flex"
+  ],
+  "main": "flexiblegs-scss.scss",
+  "author": "@dnomak",
+  "license": "MIT",
+  "ignore": [
+    "**/.*"
+  ]
+}
